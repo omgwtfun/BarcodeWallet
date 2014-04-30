@@ -103,7 +103,7 @@ public class BarcodeFragment extends Fragment implements AbsListView.OnItemClick
             throw new ClassCastException(activity.toString()
                 + " must implement BarcodeDataListner");
         }
-        List<Barcode> barcodes = new ArrayList<Barcode>();
+        List<Barcode> barcodes = mListener.getAllBarcodes();
         mAdapter = new BarcodeAdapter(getActivity(), barcodes);
     }
 
