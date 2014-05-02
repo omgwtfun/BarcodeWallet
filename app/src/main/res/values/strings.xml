@@ -4,7 +4,7 @@
     <string name="app_name">Barcode Wallet</string>
     <string name="title_section1">Home</string>
     <string name="title_section2">List Barcodes</string>
-    <string name="title_section3">Add/Remove Barcodes</string>
+    <string name="title_section3">Add Barcodes</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="action_example">Example test</string>

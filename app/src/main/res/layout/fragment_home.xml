@@ -3,6 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:padding="10dp"
     tools:context="com.chrismburke.barcodewallet.app.HomeFragment">
 
 
@@ -10,11 +11,15 @@
         android:id="@+id/button_display"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="@drawable/rounded_corner"
+        android:layout_margin="5dp"
         android:text="@string/display_barcodes" />
     <Button
         android:id="@+id/button_add"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="@drawable/rounded_corner"
+        android:layout_margin="5dp"
         android:text="@string/add_barcode"/>
 
 </LinearLayout>
