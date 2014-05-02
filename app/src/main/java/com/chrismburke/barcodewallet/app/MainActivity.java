@@ -54,10 +54,6 @@ public class MainActivity extends Activity
         mBarcodeDataSource = BarcodeDataSource.newInstance(this);
         mBarcodeDataSource.open();
 
-        //TODO: Delete the adds
-        mBarcodeDataSource.addBarcode("Test 1", "1");
-        mBarcodeDataSource.addBarcode("Test 2", "2");
-        mBarcodeDataSource.addBarcode("Test 3", "3");
         Log.d("DEBUG", "onResume()");
 
     }
@@ -65,7 +61,7 @@ public class MainActivity extends Activity
     protected void onPause() {
         super.onPause();
         //TODO: Remove the delete all when real add happens
-        mBarcodeDataSource.deleteAll();
+
         mBarcodeDataSource.close();
 
         Log.d("DEBUG", "onPause()");

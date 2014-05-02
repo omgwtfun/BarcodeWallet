@@ -5,15 +5,31 @@
     android:orientation="vertical"
     tools:context="com.chrismburke.barcodewallet.app.AddFragment">
 
+    <EditText
+        android:id="@+id/barcode_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"/>
+
+    <EditText
+        android:id="@+id/barcode_data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"/>
+
     <Button
         android:id="@+id/scan"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="@drawable/rounded_corner"
+        android:layout_margin="5dp"
         android:text="@string/scan"/>
 
     <Button
         android:id="@+id/add"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="@drawable/rounded_corner"
+        android:layout_margin="5dp"
         android:text="@string/add"/>
 </LinearLayout>
